@@ -31,3 +31,12 @@ Clone the repository and install the required dependencies:
 git clone <your-repo-url>
 cd <your-repo-directory>
 pip install -r requirements.txt
+pip install pafy youtube-dl moviepy opencv-python
+
+.
+├── data/               # Folder containing datasets and processed video frames
+├── models/             # Folder to save trained models
+├── notebooks/          # Jupyter notebooks for experiments and visualizations
+├── scripts/            # Python scripts for various functionalities
+├── README.md           # This README file
+└── requirements.txt    # List of Python dependencies
